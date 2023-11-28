@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Figma Login Page Task 1</title>
+    <style>
+        img{
+            position:absolute;
+        }
+img.r{right:550px;}
+
+img.c{right:450px;}
+
+img.c1{right:330px; }
+
+img.r1{right:230px;}
+
+img.r2{top:108px; right:550px;}
+
+img.r3{top:108px; right:450px;}
+
+img.r4{top:108px;right:330px;}
+
+img.r5{top:108px;right:230px;}
+
+img.r6{top:208px;right:550px;}
+
+img.r7{top:208px;right:450px;}
+
+img.r8{top:208px;right:330px;}
+
+img.r9{top:208px;right:230px;}
+
+    img.r01{top:308px;right:550px;}
+
+    img.c01{top:308px;right:450px;}
+
+    img.c11{top:308px;right:330px; }
+
+    img.r11{top:308px;right:230px;}
+
+    img.r21{top:408px; right:550px;}
+
+    img.r31{top:408px; right:450px;}
+
+    img.r41{top:408px;right:330px;}
+    
+    img.r51{top: 408px;right:230px;}
+    
+    img.r61{top:508px;right:550px;}
+    
+    img.r71{top:508px;right:450px;}
+    
+    img.r81{top:508px;right:330px;}
+    
+    img.r91{top:508px;right:230px;}
+
+    img.icon{
+        top:50px; left:210px;
+    }
+    label{
+        position: absolute;
+    }
+    input{
+        position: absolute;
+    }
+    label.b_name{
+        top: 50px; 
+        left:260px;
+        color: #406678;
+font-family:"Zen Kaku Gothic", "Antique", Sans-serif;
+font-size: 32px;
+font-style:normal;
+font-weight: 400;
+    }
+    label.heading{
+        width:350px;
+        top:110px;
+        left:200px;
+        color: #424242;
+font-family: "Zen Kaku Gothic", "Antique", Sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+    }
+    label.sub{
+        width:250px;
+        top:190px;
+        left:205px;
+        color: #757575;
+font-family: "Zen Kaku Gothic", "Antique", Sans-serif;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    button.btn1{
+        position: absolute;
+        width: 350px;
+        height:50px;
+        top:220px;
+        left:201px;
+        padding:10px;  
+        color: #424242;
+font-family: "Zen Kaku Gothic", "Antique", Sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+border: 0px;
+border-radius: 48px;
+background: #E3F3FB;
+background-image: url("D:\Tasks\google.jpg");
+    }
+    img.align{
+        position: absolute;
+        border-radius: 50%;
+        margin-left: -40px;
+}
+div.divider{
+    position: relative;
+    display: flex;
+    width: 350px;
+    top:280px;
+    width:150x;
+    margin-left: 190px;
+color: #616161;
+font-family: "Zen Kaku Gothic", "Antique", Sans-serif;
+font-size: 13px;
+}
+.divider::before, .divider::after {
+  flex: 1;
+  content: '';
+  padding: 1px;
+  background-color: lightgray;
+  margin: 8px;
+}
+label.e-mail{
+    position: absolute;
+    width: 350px;
+    top:330px;
+    left:210px;
+    font-size: 14px;
+    font-family: "Zen Kaku Gothic", "Antique", Sans-serif;
+}
+label.password{
+    position: absolute;
+    width: 350px;
+    top:410px;
+    left:210px;
+    font-size: 14px;
+    font-family: "Zen Kaku Gothic", "Antique", Sans-serif;
+}
+input.email{
+    position: absolute;
+    top:325px;
+    left:200px;
+  width: 350px;
+  height: 60px;
+ border-radius: 8px;
+ border: 0;
+ background-color: #F5F5F5;
+color: #212121;
+font-family: "Zen Kaku Gothic", "Antique", Sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28.16px; /* 176% */
+}
+input.password{
+    position: absolute;
+    top:405px;
+    left:200px;
+  width: 350px;
+  height: 60px;
+  border-radius: 8px;
+  border:0;
+background:#F5F5F5;
+color: #BDBDBD;
+font-family: "Zen Kaku Gothic", "Antique", Sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+}
+img.eye{
+    position: absolute;
+    top: 428px;
+left:520px;
+}
+button.btn2{
+position: absolute;
+top:490px;
+left:200px;
+width: 350px;
+height: 55px;
+border-radius: 8px;
+background: #2F3538;
+color: #FFF;
+text-align: center;
+font-family: "Zen Kaku Gothic", "Antique", Sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; 
+}
+p.t{
+    position: absolute;
+    top:550px;
+    left:205px;
+width: 340px;
+color: #757575;
+font-family: "Zen Kaku Gothic", "Antique", Sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+p.c{
+    position:absolute;
+    top:590px;
+    left:250px;
+    width:200px;
+color: #616161;
+font-family: "Zen Kaku Gothic", "Antique", Sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+span{
+color: #212121;
+font-family: "Zen Kaku Gothic", "Antique", Sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 900;
+text-decoration-line: underline;
+}
+    </style>
+</head>
+<body>
+
+ <img class="r" src="D:\Tasks\Rectangle_243-2.jpg" width="100px" height="100px"></img>
+ <img class="c" src="D:\Tasks\Rectangle_242-2.jpg" width="100px" height="100px"></img>
+ <img class="c1" src="D:\Tasks\Rectangle_242-2.jpg" width="100px" height="100px"></img>
+ <img class="r1" src="D:\Tasks\Rectangle_243.jpg" width="100px" height="100px"></img>
+ <img class="r2" src="D:\Tasks\Rectangle_244-2.jpg" width="100px" height="100px"></img>
+ <img class="r3" src="D:\Tasks\Rectangle_245-2.jpg" width="100px" height="100px"></img>
+ <img class="r4" src="D:\Tasks\Rectangle_245.jpg" width="100px" height="100px"></img>
+ <img class="r5" src="D:\Tasks\Rectangle_244-2.jpg" width="100px" height="100px"></img>
+ <img class="r6" src="D:\Tasks\Rectangle_250-2.jpg" width="100px" height="100px"></img>
+ <img class="r7" src="D:\Tasks\Rectangle_251-2.jpg" width="100px" height="100px"></img>
+ <img class="r8" src="D:\Tasks\Rectangle_251.jpg" width="100px" height="100px"></img>
+ <img class="r9" src="D:\Tasks\Rectangle_250-1.jpg" width="100px" height="100px"></img>
+
+ <img class="r01" src="D:\Tasks\Rectangle_243-2.jpg" width="100px" height="100px"></img>
+ <img class="c01" src="D:\Tasks\Rectangle_242-2.jpg" width="100px" height="100px"></img>
+ <img class="c11" src="D:\Tasks\Rectangle_242-2.jpg" width="100px" height="100px"></img>
+ <img class="r11" src="D:\Tasks\Rectangle_243.jpg" width="100px" height="100px"></img>
+ <img class="r21" src="D:\Tasks\Rectangle_244-2.jpg" width="100px" height="100px"></img>
+ <img class="r31" src="D:\Tasks\Rectangle_245-2.jpg" width="100px" height="100px"></img>
+ <img class="r41" src="D:\Tasks\Rectangle_245.jpg" width="100px" height="100px"></img>
+ <img class="r51" src="D:\Tasks\Rectangle_244-2.jpg" width="100px" height="100px"></img>
+ <img class="r61" src="D:\Tasks\Rectangle_250-2.jpg" width="100px" height="100px"></img>
+ <img class="r71" src="D:\Tasks\Rectangle_251-2.jpg" width="100px" height="100px"></img>
+ <img class="r81" src="D:\Tasks\Rectangle_251.jpg" width="100px" height="100px"></img>
+ <img class="r91" src="D:\Tasks\Rectangle_250-1.jpg" width="100px" height="100px"></img>
+
+ <img class="icon" src="D:\Tasks\Group_1132.jpg" width="45.63px" height="37.3px"></img>
+ 
+ <form>
+    <label class="b_name">uBrand</label>
+
+<label class="heading">Start Your 14-Day Free Trial Today.</label>
+
+<label class="sub">NO CREDIT CARD REQUIRED!</label>
+
+<button class="btn1">
+<img src="D:\Tasks\google.jpg" width="24px" height="24px" class="align">
+Sign up with google </button>
+<div class="divider">
+    Or use Email
+</div>
+    <form>
+         <input type="Email" class="email" name="firstname">
+      <input type="password" class="password" name="Password">
+      <img src="D:\Tasks\eye.jpg" class="eye">
+ <label class="e-mail"> EMAIL</label>     
+<label class="password">PASSWORD</label>
+<button class="btn2">START MY FREE TRAIL > </button>
+ <br>
+<p class="t">By Signing up to uBrand, means you agree to our Privacy Policy and Terms of Service</p>
+<p class="c">Already a Member? <span> <a href="#Login">LOG IN</a></span></p>
+ </form>
+</body>
+</html>
